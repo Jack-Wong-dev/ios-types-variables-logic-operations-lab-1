@@ -11,7 +11,7 @@
 
 ## 1. Which data type would be the best to use for recording the total balance of an online shopping cart?
 
-// your answer here
+Double (and Float)
 
 ***
 ## 2. Which of the following variable declarations is **incorrect**?
@@ -25,15 +25,15 @@ let emotion: String = ":)"
 
 let grade: Char = "a"
 ```
-//  let grade: Char = "a", should be 
+let grade: Char = "a", should be 
 let grade: Character = "a"
 ***
 ## 3. Simplify the following using a calculator:
 
-1 + 4 * 2 / 2 + 2
-
- //7
+1 + 4 * 2 / 2 + 27
 ***
+7
+
 ## 4. Which of the following are true? State all that apply.
 
 ```swift
@@ -45,6 +45,14 @@ let grade: Character = "a"
 
 (14 % 2 < 4) || (243 % 13 > 2) || (52 % 3 > 5)        //True
 ```
+17 % 4 == 1        is True      
+
+25 % 4 != 1         is False
+
+81 % 9 != 840 % 2    is False
+
+(14 % 2 < 4) || (243 % 13 > 2) || (52 % 3 > 5)        is True 
+
 
 ***
 ## 5. Which of the follow is true?
@@ -55,7 +63,7 @@ let numOne = 4.0
 let numTwo = 4.0
 let a = numOne == numTwo
 ```
-// True
+True
 
 b)
 ```swift
@@ -63,7 +71,8 @@ let numThree = 24/5
 let numFour = 24.0/5.0
 let b = numThree == numFour
 ```
-//False
+False.  
+* Can't divide integers 
 
 c)
 ```swift
@@ -71,7 +80,7 @@ let numFive = 24%5
 let numSix = 24.0%5.0
 let c = numFive == numSix
 ```
-//False
+False
 
 d)
 ```swift
