@@ -31,8 +31,11 @@ let grade: Character = "a"
 ## 3. Simplify the following using a calculator:
 
 1 + 4 * 2 / 2 + 27
-***
+
+
 7
+***
+
 
 ## 4. Which of the following are true? State all that apply.
 
@@ -81,6 +84,7 @@ let numSix = 24.0%5.0
 let c = numFive == numSix
 ```
 False
+* Can't use mod on float/double variables
 
 d)
 ```swift
@@ -88,7 +92,8 @@ let numSeven = 4.0 + 1.2
 let numEight = 5.0 + .2
 let d = numSeven == numEight
 ```
-//False
+False
+* Incorrect notation of decimals.  Should be 0.2
 ***
 ## 6. What is the final value of i?
 
@@ -100,4 +105,4 @@ i *= 2
 i %= 3
 i -= 3
 ```
-//-2
+-2
